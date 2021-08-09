@@ -33,7 +33,7 @@ agent any
 stages{
     stage('SCM Checkout'){
         steps{
-            git branch: 'main', url: 'https://github.com/Sulekha02112001/extrawork_ansible_win_update.git'
+            git branch: 'main', url: 'https://github.com/PrasantiBoddu/task_ansible_win_update.git'
         }
     }
     stage('Execute Ansible'){
